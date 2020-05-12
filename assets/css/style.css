@@ -210,6 +210,19 @@ p {
   } 
 
 
+  .animated {
+    background: linear-gradient(to right, #CCC 50%, rgb(159, 206, 233) 50%, rgb(35, 94, 134) );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+  }
+  .animated:hover {
+    background-position: -100%;
+    cursor: default;
+  }
+
 
   @media (max-width: 900px) { 
     .left{
