@@ -54,7 +54,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  background-color: #1f1b1d;
   height: 100%;
   color: #fff;
 }
@@ -63,7 +63,8 @@ p {
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: #3d231b;
+  color: #1f1b1d;
+  background-color: #1f1b1d;
 }
 
 /* -----portfolio button----- */
@@ -138,10 +139,12 @@ p {
 .footer-social {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
   list-style: none;
   padding: 0;
-  width: 50px;
+  justify-content: space-around;
+}
+.footer-social a {
+  padding: 10px;
 }
 .fa {
   clip: rect(10px, 190px, 190px, 10px);
@@ -157,7 +160,7 @@ p {
 
 .skills ul {
   margin-top: 50px;
-  width: 300px;
+  max-width: 400px;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -165,6 +168,9 @@ p {
   padding-left: 0;
 }
 
+.skills li {
+  padding: 5px;
+}
 .fab {
   /* margin-top: 20px; */
   /* clip-path: circle(100px at center); */
